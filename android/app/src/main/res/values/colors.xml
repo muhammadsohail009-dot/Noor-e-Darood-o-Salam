@@ -1,0 +1,11 @@
+<resources>
+    <color name="emerald_dark">#022C22</color>
+    <color name="emerald_deep">#064E3B</color>
+    <color name="emerald_medium">#047857</color>
+    <color name="emerald_accent">#10B981</color>
+    <color name="gold_primary">#F59E0B</color>
+    <color name="gold_amber">#D97706</color>
+    <color name="gold_light">#FCD34D</color>
+    <color name="black_bg">#011612</color>
+    <color name="surface_dark">#03372B</color>
+</resources>

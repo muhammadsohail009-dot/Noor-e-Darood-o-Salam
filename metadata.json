@@ -1,0 +1,6 @@
+{
+  "name": "Noor-e-Darood o Salam",
+  "description": "An Islamic Darood app with smart counter, personalized AI habit plans, streaks, prayer time goals, virtues & dual language support (Urdu & English).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
