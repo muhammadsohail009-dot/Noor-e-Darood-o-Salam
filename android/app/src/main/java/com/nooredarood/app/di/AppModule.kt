@@ -6,7 +6,6 @@ import com.nooredarood.app.data.local.dao.DailyLogDao
 import com.nooredarood.app.data.local.dao.DaroodDao
 import com.nooredarood.app.data.local.dao.SessionDao
 import com.nooredarood.app.data.local.database.AppDatabase
-import com.nooredarood.app.data.local.datastore.UserPreferencesRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -36,10 +35,5 @@ object AppModule {
 
     @Provides
     fun provideDailyLogDao(database: AppDatabase): DailyLogDao = database.dailyLogDao()
-
-    @Provides
-    @Singleton
-    fun provideUserPreferencesRepository(@ApplicationContext context: Context): UserPreferencesRepository {
-        return UserPreferencesRepository(context)
-    }
 }
+
